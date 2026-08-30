@@ -1,17 +1,20 @@
----
-layout: front
----
+# Editor's drafts for master branch of [martinthomson/I-D](https://github.com/martinthomson/I-D)
 
-* [bcp56bis](bcp56bis) - On the use of HTTP as a Substrate 
-* [for-the-users](for-the-users) - The Internet is for End Users 
-* [http-cache-channels](http-cache-channels)  
-* [httpbis-header-registry](httpbis-header-registry) - A Registry for HTTP Header Fields 
-* [httpbis-retry](httpbis-retry) - Retrying HTTP Requests 
-* [json-home](json-home) - Home Documents for HTTP APIs 
-* [link-template](link-template) - The Link-Template HTTP Header Field 
-* [linked-cache-inv](linked-cache-inv)  
-* [registry-custodian](registry-custodian) - Managing IANA Registries with Custodians 
-* [rfc-tags](rfc-tags)  
-* [rfc5988bis](rfc5988bis) - Web Linking 
-* [site-wide-headers](site-wide-headers) - Site-Wide HTTP Headers 
-* [wugh-services](wugh-services) - Using Third Party Services for IETF Work
+View [saved issues](issues.html), or the latest GitHub [issues](https://github.com/martinthomson/I-D/issues) and [pull requests](https://github.com/martinthomson/I-D/pulls) in the [repo](https://github.com/martinthomson/I-D).
+
+## Preview for branch [embargo-impl](embargo-impl)
+
+| Draft |     |     |     |
+| ----- | --- | --- | --- |
+| [HTTP Availability Hints](embargo-impl/draft-nottingham-http-availability-hints.html "HTTP Availability Hints (HTML)") | [plain text](embargo-impl/draft-nottingham-http-availability-hints.txt "HTTP Availability Hints (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-http-availability-hints.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-http-availability-hints.txt) |
+| [Application Directives in robots.txt](embargo-impl/draft-nottingham-plan-b.html "Application Directives in robots.txt (HTML)") | [plain text](embargo-impl/draft-nottingham-plan-b.txt "Application Directives in robots.txt (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-plan-b.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-plan-b.txt) |
+| [webbotauth usecases](embargo-impl/draft-nottingham-webbotauth-use-cases.html "Use Cases for Authentication of Web Bots (HTML)") | [plain text](embargo-impl/draft-nottingham-webbotauth-use-cases.txt "Use Cases for Authentication of Web Bots (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-webbotauth-use-cases.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-webbotauth-use-cases.txt) |
+| [Home Documents for HTTP APIs](embargo-impl/draft-nottingham-json-home.html "Home Documents for HTTP APIs (HTML)") | [plain text](embargo-impl/draft-nottingham-json-home.txt "Home Documents for HTTP APIs (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-json-home.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-json-home.txt) |
+| [An HTTP Cache Invalidation API](embargo-impl/draft-nottingham-http-invalidation.html "An HTTP Cache Invalidation API (HTML)") | [plain text](embargo-impl/draft-nottingham-http-invalidation.txt "An HTTP Cache Invalidation API (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-http-invalidation.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-http-invalidation.txt) |
+| [Feed Menus](embargo-impl/draft-nottingham-feed-menu.html "Feed Menus (HTML)") | [plain text](embargo-impl/draft-nottingham-feed-menu.txt "Feed Menus (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-feed-menu.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-feed-menu.txt) |
+| [Archive-Embargo](embargo-impl/draft-nottingham-archive-embargo.html "Embargoing Archive Publication using robots.txt (HTML)") | [plain text](embargo-impl/draft-nottingham-archive-embargo.txt "Embargoing Archive Publication using robots.txt (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-archive-embargo.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-archive-embargo.txt) |
+| [Making Decisions in IETF Working Groups](embargo-impl/draft-nottnick-ietf-decisions.html "Making Decisions in IETF Working Groups (HTML)") | [plain text](embargo-impl/draft-nottnick-ietf-decisions.txt "Making Decisions in IETF Working Groups (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottnick-ietf-decisions.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottnick-ietf-decisions.txt) |
+| [Binary Structured HTTP Field Values](embargo-impl/draft-nottingham-binary-structured-headers.html "Binary Structured HTTP Field Values (HTML)") | [plain text](embargo-impl/draft-nottingham-binary-structured-headers.txt "Binary Structured HTTP Field Values (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-binary-structured-headers.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-binary-structured-headers.txt) |
+| [Blocking by IP Address](embargo-impl/draft-nottingham-blocking-best-practices.html "Best Practices for Blocking Clients by IP Address (HTML)") | [plain text](embargo-impl/draft-nottingham-blocking-best-practices.txt "Best Practices for Blocking Clients by IP Address (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-blocking-best-practices.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-blocking-best-practices.txt) |
+| [Specification Required Sub-Policies](embargo-impl/draft-nottingham-ianabis-spec-reqd.html "Specification Required Sub-Policies (HTML)") | [plain text](embargo-impl/draft-nottingham-ianabis-spec-reqd.txt "Specification Required Sub-Policies (Text)") | [diff with master](https://author-tools.ietf.org/api/iddiff?url_1=https://martinthomson.github.io/I-D/draft-nottingham-ianabis-spec-reqd.txt&url_2=https://martinthomson.github.io/I-D/embargo-impl/draft-nottingham-ianabis-spec-reqd.txt) |
+
