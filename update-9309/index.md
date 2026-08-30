@@ -1,4 +1,4 @@
-# Editor's drafts for update-9309 branch of [martinthomson/I-D](https://github.com/martinthomson/I-D/tree/update-9309)
+# Editor's drafts for update-9309 branch of [martinthomson/mnot-id](https://github.com/martinthomson/mnot-id/tree/update-9309)
 
 | Draft |     |     |     |
 | ----- | --- | --- | --- |

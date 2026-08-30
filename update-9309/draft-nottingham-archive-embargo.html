@@ -9,8 +9,8 @@
 <meta content="Martin Thomson" name="author">
 <meta content='
        Web sites often block archiving crawlers because they host time-sensitive information. This
-specification documents a robots.txt extension, "Archive-Embargo", that indicates that such
-crawlers should delay publication of information. 
+specification documents a robots.txt extension, "Archive-Embargo", that can be used to request
+that such crawlers delay publication of information. 
        This document updates RFC 9309 to add two directives that support embargoes. 
     ' name="description">
 <meta content="xml2rfc 3.34.0" name="generator">
@@ -1086,8 +1086,8 @@ svg {
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">Web sites often block archiving crawlers because they host time-sensitive information. This
-specification documents a robots.txt extension, "Archive-Embargo", that indicates that such
-crawlers should delay publication of information.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+specification documents a robots.txt extension, "Archive-Embargo", that can be used to request
+that such crawlers delay publication of information.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 <p id="section-abstract-2">This document updates RFC 9309 to add two directives that support embargoes.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
@@ -1243,6 +1243,8 @@ embargo-period = "w" / "m" / "q"
 <a href="#name-abnf-for-archive-embargo-li" class="selfRef">ABNF for Archive-Embargo line</a>
         </figcaption></figure>
 </div>
+<p id="section-2-7">Note that the embargo period uses case-insensitive matching,
+so that "Q" and "q" both indicate 90 days.<a href="#section-2-7" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="embargo-allow">
@@ -1250,8 +1252,8 @@ embargo-period = "w" / "m" / "q"
       <h2 id="name-the-embargo-allow-rule">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-the-embargo-allow-rule" class="section-name selfRef">The "Embargo-Allow" Rule</a>
       </h2>
-<p id="section-3-1">Sites wishing to set archive embargos without knowledge of whether a particular crawler supports this protocol extension need a way to predicate an 'allow' rule on support for it. The "Embargo-Allow" rule serves this function.<a href="#section-3-1" class="pilcrow">¶</a></p>
-<p id="section-3-2">Its semantics are identical to the "allow" rule in <span><a href="https://rfc-editor.org/rfc/rfc9309#section-2.2.2" class="relref">Section 2.2.2</a> of [<a href="#ROBOTS" class="cite xref">ROBOTS</a>]</span>, except that it is only applicable when the crawler supports and honours the "Archive-Embargo" rule.<a href="#section-3-2" class="pilcrow">¶</a></p>
+<p id="section-3-1">Sites wishing to set archive embargoes without knowledge of whether a particular crawler supports this protocol extension need a way to predicate an 'allow' rule on support for it. The "Embargo-Allow" rule serves this function.<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-2">Its semantics are identical to the "allow" rule in <span><a href="https://rfc-editor.org/rfc/rfc9309#section-2.2.2" class="relref">Section 2.2.2</a> of [<a href="#ROBOTS" class="cite xref">ROBOTS</a>]</span>, except that it is only applicable when the crawler supports and honours the "Archive-Embargo" rule. If there is no valid value for "Archive-Embargo" in the group, the "Embargo-Allow" rule <span class="bcp14">MUST</span> be ignored.<a href="#section-3-2" class="pilcrow">¶</a></p>
 <p id="section-3-3">The rule ABNF pattern from <span><a href="https://rfc-editor.org/rfc/rfc9309#section-2.2" class="relref">Section 2.2</a> of [<a href="#ROBOTS" class="cite xref">ROBOTS</a>]</span> is extended as shown in <a href="#f-abnf-allow" class="auto internal xref">Figure 2</a>.<a href="#section-3-3" class="pilcrow">¶</a></p>
 <span id="name-abnf-for-embargo-allow-line"></span><div id="f-abnf-allow">
 <figure id="figure-2">
